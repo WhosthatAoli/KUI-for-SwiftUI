@@ -1,0 +1,5 @@
+        Image(systemName: "rainbow")
+            .resizable()
+            .frame(width: 200, height: 120)
+            .symbolRenderingMode(.multicolor)
+            .symbolEffect(.variableColor.iterative.reversing.hideInactiveLayers)
